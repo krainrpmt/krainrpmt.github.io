@@ -1,7 +1,7 @@
 ---
 title: Isostatic Mount Conference
 categories:
-- Projects
+- Publications
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
