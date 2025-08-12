@@ -39,7 +39,7 @@ navigation_header:
 - title: About
   url: /about/
 - title: Projects
-  url: /blog/
+  url: /projects/
 - title: Publications
   url: /publications/
 
@@ -50,14 +50,20 @@ navigation_footer:
 
 # Collections
 collections:
-  posts:
+  project_post:
     title: Past Projects and Experiences
     output: true
     description: "The cumulation of all my past projects and experiences during the four year of study"
     feature_text: |
-      Welcome to my blog
+      Welcome to my projects
     feature_image: "https://picsum.photos/2560/600?image=866"
-
+  publication_post:
+    title: List of publications
+    output: true
+    description: "The cumulation of all my publications"
+    feature_text: |
+      Welcome to my publications
+    feature_image: "https://picsum.photos/2560/600?image=866"
 # Collection settings
 defaults:
   -
