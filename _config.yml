@@ -50,14 +50,14 @@ navigation_footer:
 
 # Collections
 collections:
-  project_post:
+  project_posts:
     title: Past Projects and Experiences
     output: true
     description: "The cumulation of all my past projects and experiences during the four year of study"
     feature_text: |
       Welcome to my projects
     feature_image: "https://picsum.photos/2560/600?image=866"
-  publication_post:
+  publication_posts:
     title: List of publications
     output: true
     description: "The cumulation of all my publications"
