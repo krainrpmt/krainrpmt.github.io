@@ -41,7 +41,7 @@ pagination:
 navigation_header:
 - title: Home
   url: /
-- title: About
+- title: About Me
   url: /about/
 - title: Projects
   url: /projects/
