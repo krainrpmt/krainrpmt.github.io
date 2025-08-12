@@ -75,6 +75,18 @@ defaults:
   -
     scope:
       path: ""
+      type: "project_posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
+      type: "publication_posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
       type: "pages"
     values:
       layout: page # Set the default layout for pages
