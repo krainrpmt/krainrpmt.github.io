@@ -1,0 +1,21 @@
+---
+---
+@import "alembic";  /* load the theme CSS first */
+
+/* Your overrides below */
+
+/* Narrow the reading column (bigger side margins) */
+@media (min-width: 40em) {
+  .main .content {
+    width: auto !important;
+    max-width: 100ch;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+}
+
+/* Global type scale (Choice A) */
+html { font-size: 87.5% !important; }
+@media (min-width: 40em) { html { font-size: 90% !important; } }
+@media (min-width: 64em) { html { font-size: 100% !important; } }
+@media (min-width: 100em){ html { font-size: 110% !important; } }
