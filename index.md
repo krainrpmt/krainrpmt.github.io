@@ -20,8 +20,12 @@ Advancing next-generation aerospace propulsion and power generation technology t
 •	Fuel injection in Rotating Detonation Engine\
 •	Combustion of green fuels, i.e. hydrogen, ammonia
 
-
 > The greatest invention of humanity is Science
+
+<p class="next-cta">
+  <a class="button" href="{% link about.md %}">About me →</a>
+</p>
+
 
 [Chulalongkorn University]: https://www.chula.ac.th/en/
 [Faculty of Engineering]: https://www.eng.chula.ac.th/en/

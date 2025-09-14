@@ -19,3 +19,8 @@ html { font-size: 87.5% !important; }
 @media (min-width: 40em) { html { font-size: 100% !important; } }
 @media (min-width: 64em) { html { font-size: 105% !important; } }
 @media (min-width: 100em){ html { font-size: 110% !important; } }
+
+.next-cta {
+  text-align: center;
+  margin-top: 2rem;
+}
