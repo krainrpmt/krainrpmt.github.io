@@ -1,6 +1,8 @@
 # Set theme
 theme: alembic-jekyll-theme
 
+css_inline: false
+
 # File excludes
 exclude:
 - README.md
