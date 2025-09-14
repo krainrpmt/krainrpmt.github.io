@@ -1894,4 +1894,23 @@ pre code {
   overflow-x: scroll;
 }
 
+/* Krai: make side margins bigger by narrowing the content column */
+@media (min-width: 40em) {
+  .main .content {
+    width: auto !important;      /* override the theme's 62% */
+    max-width: 100ch;             /* adjust to taste: 60–72ch */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;       /* small inner gutter */
+    padding-right: 1.25rem;
+  }
+}
+
+/* Krai: global font-size scale */
+html { font-size: 87.5% !important; }          /* ~14px on mobile */
+@media (min-width: 40em) { html { font-size: 100% !important; } }    /* 16px */
+@media (min-width: 64em) { html { font-size: 100% !important; } }  /* 18px */
+@media (min-width: 100em){ html { font-size: 110% !important; } }    /* 20px */
+
+
 /*# sourceMappingURL=styles.css.map */
